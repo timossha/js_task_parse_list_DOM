@@ -1,0 +1,2 @@
+var e=document.getElementsByTagName("ul")[0],t=e.cloneNode(!1),a=function(e){for(var t=[],a=0;a<e.childNodes.length;a++)"LI"===e.childNodes[a].nodeName&&t.push(e.childNodes[a]);return t}(e);!function(e){e.sort(function(e,t){return parseInt(t.getAttribute("data-salary").replaceAll(/\D/g,""),10)-parseInt(e.getAttribute("data-salary").replaceAll(/\D/g,""),10)})}(a);for(var r=0;r<a.length;r++)t.appendChild(a[r]);e.parentNode.replaceChild(t,e);
+//# sourceMappingURL=index.bade806d.js.map
